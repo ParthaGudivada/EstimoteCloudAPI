@@ -12,6 +12,9 @@
 		AC07765A1BE6DC33002F6898 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AC0776581BE6DC33002F6898 /* LaunchScreen.storyboard */; };
 		AC0776651BE6DC33002F6898 /* CloudAPITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC0776641BE6DC33002F6898 /* CloudAPITests.swift */; };
 		AC0776701BE6DC33002F6898 /* CloudAPIUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC07766F1BE6DC33002F6898 /* CloudAPIUITests.swift */; };
+		AC07767E1BE6DC8A002F6898 /* DataDownloader.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC07767D1BE6DC8A002F6898 /* DataDownloader.swift */; };
+		AC0776801BE6DFF9002F6898 /* DataViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC07767F1BE6DFF9002F6898 /* DataViewController.swift */; };
+		AC0776821BE6F10B002F6898 /* EstimoteCloudURI.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC0776811BE6F10B002F6898 /* EstimoteCloudURI.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -43,6 +46,9 @@
 		AC07766B1BE6DC33002F6898 /* CloudAPIUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CloudAPIUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		AC07766F1BE6DC33002F6898 /* CloudAPIUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CloudAPIUITests.swift; sourceTree = "<group>"; };
 		AC0776711BE6DC33002F6898 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		AC07767D1BE6DC8A002F6898 /* DataDownloader.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DataDownloader.swift; sourceTree = "<group>"; };
+		AC07767F1BE6DFF9002F6898 /* DataViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DataViewController.swift; sourceTree = "<group>"; };
+		AC0776811BE6F10B002F6898 /* EstimoteCloudURI.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = EstimoteCloudURI.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -97,6 +103,9 @@
 				AC0776561BE6DC33002F6898 /* Assets.xcassets */,
 				AC0776581BE6DC33002F6898 /* LaunchScreen.storyboard */,
 				AC07765B1BE6DC33002F6898 /* Info.plist */,
+				AC07767D1BE6DC8A002F6898 /* DataDownloader.swift */,
+				AC07767F1BE6DFF9002F6898 /* DataViewController.swift */,
+				AC0776811BE6F10B002F6898 /* EstimoteCloudURI.swift */,
 			);
 			path = CloudAPI;
 			sourceTree = "<group>";
@@ -249,6 +258,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				AC07767E1BE6DC8A002F6898 /* DataDownloader.swift in Sources */,
+				AC0776821BE6F10B002F6898 /* EstimoteCloudURI.swift in Sources */,
+				AC0776801BE6DFF9002F6898 /* DataViewController.swift in Sources */,
 				AC0776551BE6DC33002F6898 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
